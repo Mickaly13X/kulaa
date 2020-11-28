@@ -1,4 +1,6 @@
 import os
+import library
+import memory
 
 running = True
 print("Running kulaa v1.10 beta")
