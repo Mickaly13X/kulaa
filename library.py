@@ -3,9 +3,6 @@ import os
 import subprocess
 
 
-print("lib")
-
-
 def decrypt_file_path(file_path):
     real_path = file_path.replace("~","/Users/erickim")
     return real_path
