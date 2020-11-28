@@ -19,6 +19,9 @@ def add_comment_to_file(file_path,comment):
     comment = str(comment_previous) + str(comment)
     comment_file(file_path,comment)
 
+#def echo(command):
+
+
 
 #CLASSES
 
