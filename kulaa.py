@@ -1,6 +1,6 @@
 import os
-import library
-import memory
+import library as lib
+import memory as mem
 
 running = True
 print("Running kulaa v1.10 beta")
@@ -28,6 +28,8 @@ while running == True:
     elif prompt == "clear":
         os.system('cls||clear')
     
+    elif com[0] == "comment":
+        lib.add_comment_to_file(com[1],com[2])
     #COPY
     #MOVE
     #OPEN
